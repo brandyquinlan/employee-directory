@@ -5,7 +5,6 @@ function Employees(props) {
         <>
             <tr>
             <td><img alt= {props.firstName} src= {props.image} className="img-fluid"/></td>
-            <td>{props.gender}</td>
             <td>{props.firstName}</td>
             <td>{props.lastName}</td>
             <td>{props.dob}</td>
