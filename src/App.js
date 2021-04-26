@@ -1,5 +1,4 @@
 import React from 'react'
-import './App.css';
 import Header from './components/Header'
 import Container from './components/Container'
 import Employees from './components/Employees'
@@ -10,8 +9,6 @@ function App() {
     <div className="App">
      <Header/>
      <Container/>
-     <Employees/>
-     <SearchForm/>
     </div>
   );
 }
