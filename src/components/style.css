@@ -7,7 +7,15 @@
 .form-group{
   width: 300px;
   padding: 0 10px;
-  margin: -30px 0 10px 80px;
+  margin: -20px 0 0px 80px;
+}
+
+th{
+font-weight: 500;
+}
+
+input#search.form-control{
+  margin-bottom: 25px;
 }
 
 img {
