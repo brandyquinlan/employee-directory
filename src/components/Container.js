@@ -58,7 +58,7 @@ export default class Container extends Component {
                             <th>First Name </th>
                             <th className='dropdown-toggle' onClick={this.sortLastName}>Last Name</th>
                             <th>Email </th>
-                            <th>Phone number</th>
+                            <th>Phone Number</th>
                             <th>DOB </th>
                         </tr>
                     </thead>
