@@ -21,12 +21,6 @@ export default class Container extends Component {
             })
     };
 
-    sortLastName = () => {
-        const sortedEmployees = this.state.employees
-        sortedEmployees.sort((a, b) => (a.name.last > b.name.last ? 1 : -1))
-        this.setState({ employees: sortedEmployees, filtered: false })
-    };
-
     handleInputChange = e => {
         const value = e.target.value;
         const name = e.target.name;
@@ -47,6 +41,12 @@ export default class Container extends Component {
         console.log(`filtered ${filteredEmployees}`)
     };
 
+    sortLastName = () => {
+        const sortedEmployees = this.state.employees
+        sortedEmployees.sort((a, b) => (a.name.last > b.name.last ? 1 : -1))
+        this.setState({ employees: sortedEmployees, filtered: false })
+    };
+
     render() {
         return (
             <div className='container-fluid mt-5'>
@@ -64,7 +64,7 @@ export default class Container extends Component {
                     </thead>
                     <tbody>
                         {
-                        // render employee list filtered by search criteria
+                            // render employee list filtered by search criteria
                             this.state.filtered ? (
                                 this.state.filteredEmployees.map((employee) => (
                                     <Employees
