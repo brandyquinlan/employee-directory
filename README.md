@@ -17,7 +17,7 @@
 An employee directory created with React. An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to sort or filter employees by name.
 
 ## Repo and Deployed App Links
-* [Link to GitHub Repo - https://github.com/brandyquinlan/employee-directory](https://github.com/brandyquinlan/employee-directory)
+* [Link to GitHub Repo - https://github.com/brandyquinlan/employee-directory/](https://github.com/brandyquinlan/employee-directory/)
 * [Link to Deployed App - https://brandyquinlan.github.io/employee-directory/](https://brandyquinlan.github.io/employee-directory/)
 
 ### User Story
