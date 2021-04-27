@@ -1,16 +1,15 @@
 import React from "react"
 
-export default function Filter({ filter, handleInputChange }) {
+export default function Filter(props) {
   return (
     <div className="form-group">
       <input
-        onChange={handleInputChange}
-        value={filter}
-        name="filter"
+        name="search"
         type="text"
         className="form-control"
         placeholder="Search"
-        id="filter"
+        id="search"
+        onChange={(event)=>props.filterFunc(event)} 
       />
     </div>
   )
