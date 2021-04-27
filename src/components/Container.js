@@ -66,9 +66,9 @@ export default class Container extends Component {
                         {
                             // render employee list filtered by search criteria
                             this.state.filtered ? (
-                                this.state.filteredEmployees.map((employee) => (
+                                this.state.filteredEmployees.map((employee, i) => (
                                     <Employees
-                                        key={employee.phone}
+                                        key={i}
                                         image={employee.picture.medium}
                                         firstName={employee.name.first}
                                         lastName={employee.name.last}
@@ -81,9 +81,9 @@ export default class Container extends Component {
                                 ))
                             ) : (
                                 // render employee list
-                                this.state.employees.map((employee) => (
+                                this.state.employees.map((employee, i) => (
                                     <Employees
-                                        key={employee.phone}
+                                        key={i}
                                         image={employee.picture.medium}
                                         firstName={employee.name.first}
                                         lastName={employee.name.last}
