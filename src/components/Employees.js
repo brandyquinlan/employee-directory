@@ -1,6 +1,7 @@
 import React from 'react'
+import "./style.css"
 
-function Employees(props) {
+export default function Employees(props) {
     return (
         <>
             <tr>
@@ -15,4 +16,3 @@ function Employees(props) {
     )
 }
 
-export default Employees
