@@ -48,11 +48,10 @@ THEN the user filters the employee list by at least one property
 - Filter employees by searching last name
 
 ## DEMO VIDEO
-![Demo Video](employee-directory.gif)
-* [Link to demo - https://drive.google.com/file/d/1VfWek9wcYf37gmjt7cg7n5TuEMuuo7Qi/view?usp=sharing](https://drive.google.com/file/d/1VfWek9wcYf37gmjt7cg7n5TuEMuuo7Qi/view?usp=sharing)
+![Demo Video](/public/employee-directory.gif)
 
 ## Screenshots
-![Screenshots](screenshots-employee-directory.png)
+![Screenshots](/public/screenshots-employee-directory.png)
 
 ## Functionality
 
